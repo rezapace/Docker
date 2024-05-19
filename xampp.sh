@@ -19,3 +19,6 @@ sudo mysql -u root -p -e "SET GLOBAL validate_password_special_char_count = 0;"
 
 # Install phpMyAdmin
 sudo apt-get install -y phpmyadmin
+
+# Create a symbolic link to phpMyAdmin
+sudo ln -s /usr/share/phpmyadmin /var/www/html/phpmyadmin
