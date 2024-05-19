@@ -1,5 +1,10 @@
 # Docker
 
+## Install app
+    ```bash
+     cd Docker && sudo chmod 775 app.sh && ./app.sh
+    ```
+
 ## Introduction
 
    ```bash
