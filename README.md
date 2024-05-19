@@ -32,7 +32,10 @@ after install you can check docker installed
     go version
    ```
 
-
+## xampp
+    ```bash
+     cd Docker && sudo chmod 775 xampp.sh && ./xampp.sh
+    ```
 
 
 # Menjalankan Docker pada Terminal
