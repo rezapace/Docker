@@ -18,10 +18,23 @@ after install you can check docker installed
     docker --version
 ```
 
+```bash
+    docker run --name some-postgres -p 5432:5432 -e POSTGRES_PASSWORD=mysecretpassword -d postgres
+```
+
+
 ## install golang
    ```bash
     cd Docker && sudo chmod 775 go.sh && ./go.sh
    ```
+## cek golang installed
+   ```bash
+    go version
+   ```
+
+
+
+
 # Menjalankan Docker pada Terminal
 
 ## Mengecek Versi Docker
