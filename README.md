@@ -18,7 +18,10 @@ after install you can check docker installed
     docker --version
 ```
 
-
+## install golang
+   ```bash
+    cd Docker && sudo chmod 775 go.sh && ./go.sh
+   ```
 # Menjalankan Docker pada Terminal
 
 ## Mengecek Versi Docker
