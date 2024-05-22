@@ -5,22 +5,22 @@ sudo apt install preload
 sudo snap install postman
 
 # Install Flatpak if not already installed
-sudo apt install flatpak
+sudo apt install -y flatpak
 
 # Add the Flathub repository
 sudo flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 
 # Install Telegram
-sudo flatpak install flathub org.telegram.desktop
+sudo flatpak install -y flathub org.telegram.desktop
 
 # Install Discord
-sudo flatpak install flathub com.discordapp.Discord
+sudo flatpak install -y flathub com.discordapp.Discord
 
 # Install VSCode
-sudo flatpak install flathub com.visualstudio.code
+sudo flatpak install -y flathub com.visualstudio.code
 
 # Install Google Chrome
-sudo flatpak install flathub com.google.Chrome
+sudo flatpak install -y flathub com.google.Chrome
 
 
 sudo apt update && sudo apt install -y gnupg
