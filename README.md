@@ -43,10 +43,10 @@ after install you can check docker installed
     ```
 
 ## cek xampp installed
-    ```bash
+```bash
      sudo service apache2 start
      sudo service mysql start
-    ```
+```
 
 ## pasword phpmyadmin
     ```bash
