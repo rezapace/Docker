@@ -38,9 +38,9 @@ after install you can check docker installed
    ```
 
 ## xampp
-    ```bash
+```bash
      cd Docker && sudo chmod 775 xampp.sh && ./xampp.sh
-    ```
+```
 
 ## cek xampp installed
 ```bash
@@ -49,10 +49,10 @@ after install you can check docker installed
 ```
 
 ## pasword phpmyadmin
-    ```bash
+```bash
      root
      p
-    ```
+```
     ## Langkah : run,status,stop,restart
 
 ### perintah untuk apache
